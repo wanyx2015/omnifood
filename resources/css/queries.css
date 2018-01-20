@@ -1,0 +1,120 @@
+/*big tablet to 1200px*/
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/*small tablet to big tablet: 768px to 1023px*/
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .long-copy {
+        width: 84%;
+        margin-left: 8%;
+    }
+    .app-screen {
+        width: 50%;
+    }
+    .steps-box {
+        margin-top: 10px;
+    }
+    .steps-box:last-child {
+        margin-top: 50px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 50px;
+    }
+    grid.css:53 .sp .works-step:last-of-type {
+        margin-bottom: 50px;
+    }
+    .btn-app img {
+        height: 45px;
+    }
+    .city-feature {
+        font-size: 85%;
+    }
+    .icon-small {
+        font-size: 100%;
+        width: 17px;
+        margin-right: 3px;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .plan-box ul li {
+        font-size: 90%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+}
+
+
+/*small phone to small tablet: 481px to 767px*/
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    .main-nav {
+        display: none;
+    }
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+    .col {
+        width: 100%;
+        margin: 1% 1%;
+    }
+    .col:first-child {
+        margin: 1% 1%;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .steps-box:first-child {
+        text-align: center;
+    }
+    .works-step div {
+        width: 40px;
+        height: 40px;
+        font-size: 120%;
+        padding: 4px;
+        margin-right: 15px;
+    }
+    .works-step {
+        margin-bottom: 20px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+
+/*small phone from 0 to 480px*/
+
+@media only screen and (max-width: 480px) {}
